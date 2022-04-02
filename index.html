@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Главная</title>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220328231957">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="navigation">
+
+        <button class="navigation__button navigation__button_info">
+          <svg class="navigation__icon" width="18" height="18">
+            <use xlink:href="img/icons/icons.svg#map-marker"></use>
+          </svg>
+        </button>
+
+        <div class="navigation__info">
+          <address>
+            <span class="spanAddColor">Адрес:</span> Москва, ул. Уличная, д. 1, оф. 1
+          </address>
+          <span class="navigation__line"></span>
+          <span>
+            <span class="spanAddColor">Режим работы офиса:</span> Пн-Вт: 1000 — 1900; Сб-Вс: 1000 — 1500
+          </span>
+        </div>
+
+
+        <div class="navigation__container">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Главная
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                О компании
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Услуги
+              </a>
+            </li>
+            <li class="menu__item item__menu">
+              <a href="#">
+                <svg class="menu__logo" class="" width="30" height="30">
+                  <use xlink:href="img/icons/icons.svg#logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Цены
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#" data-goto=".portfolio">
+                Портфолио
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navigation__button navigation__button_contact">
+          <svg class="navigation__icon" width="18" height="18">
+            <use xlink:href="img/icons/icons.svg#phone"></use>
+          </svg>
+        </button>
+
+        <div class="navigation__contact">
+          <a class="navigation__phone" href="tel:88009000000">
+            8 (800) 900-00-00
+          </a>
+          <button class="button">Заказать звонок</button>
+        </div>
+
+      </nav>
+
+      <div class="header__top">
+
+        <h1 class="title header__title">
+          Ремонт <span class="transparent-text">и</span> дизайн<br>
+          <span class="transparent-text">в Москве и Московской области</span>
+        </h1>
+
+        <button class="button header__button" data-goto=".contacts">
+          Оставить заявку
+        </button>
+
+      </div>
+
+      <div class="header__bottom">
+        <ul class="services">
+
+          <li class="services__item">
+            <button class="services__button" data-switch="first">
+              Услуги по ремонту
+            </button>
+            <div class="services__active">
+              <h4 class="services__title">Услуги по ремонту</h4>
+              <div class="text services__text">
+                <p>С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+              </div>
+              <button class="arrow-button arrow-button_center">
+                <svg class="arrow-button__icon" width="15" height="15">
+                  <use xlink:href="img/icons/icons.svg#arrow-right"></use>
+                </svg>
+                <svg class="arrow-button__circle" >
+                  <g>
+                    <ellipse class="arrow-button__background" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+                    <ellipse class="arrow-button__foreground" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </li>
+
+          <li class="services__item">
+            <button class="services__button" data-switch="second">
+              Виды работ
+            </button>
+            <div class="services__active">
+              <h4 class="services__title">Виды работ</h4>
+              <div class="text services__text">
+                <p>С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+              </div>
+              <button class="arrow-button arrow-button_center">
+                <svg class="arrow-button__icon" width="15" height="15">
+                  <use xlink:href="img/icons/icons.svg#arrow-right"></use>
+                </svg>
+                <svg class="arrow-button__circle" >
+                  <g>
+                    <ellipse class="arrow-button__background" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+                    <ellipse class="arrow-button__foreground" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </li>
+
+          <li class="services__item">
+            <button class="services__button" data-switch="third">
+              Дизайн интерьера
+            </button>
+            <div class="services__active">
+              <h4 class="services__title">Дизайн интерьера</h4>
+              <div class="text services__text">
+                <p>С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+              </div>
+              <button class="arrow-button arrow-button_center">
+                <svg class="arrow-button__icon" width="15" height="15">
+                  <use xlink:href="img/icons/icons.svg#arrow-right"></use>
+                </svg>
+                <svg class="arrow-button__circle" >
+                  <g>
+                    <ellipse class="arrow-button__background" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+                    <ellipse class="arrow-button__foreground" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </li>
+
+          <li class="services__item">
+            <button class="services__button" data-switch="four">
+              Ремонт помещений
+            </button>
+            <div class="services__active">
+              <h4 class="services__title">Ремонт помещений</h4>
+              <div class="text services__text">
+                <p>С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+              </div>
+              <button class="arrow-button arrow-button_center">
+                <svg class="arrow-button__icon" width="15" height="15">
+                  <use xlink:href="img/icons/icons.svg#arrow-right"></use>
+                </svg>
+                <svg class="arrow-button__circle">
+                  <g>
+                    <ellipse class="arrow-button__background" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+                    <ellipse class="arrow-button__foreground" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </li>
+
+        </ul>
+
+        <button class="arrow-button arrow-button_center">
+          <svg class="arrow-button__icon" width="15" height="15">
+            <use xlink:href="img/icons/icons.svg#arrow-down"></use>
+          </svg>
+          <svg class="arrow-button__circle" >
+            <g>
+              <ellipse class="arrow-button__background" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+              <ellipse class="arrow-button__foreground" ry="19" rx="19" cy="20" cx="20" stroke-width="2" />
+            </g>
+          </svg>
+        </button>
+
+      </div>
+
+    </header>
+    <main class="page">
+      <section class="portfolio">
+        <div class="portfolio__container">
+          <h2 class="subtitle portfolio__subtitle">Примеры <span class="transparent-text">выполненных</span> работ</h2>
+
+          <div class="portfolio__works works-portfolio">
+
+            <a class="works-portfolio__item works-portfolio__item_horizontal"
+              style="background-image: url(img/portfolio/1.jpg);" href="#">
+              <div class="works-portfolio__title">
+                <p>Новостройка</p>
+              </div>
+
+              <div class="works-portfolio__info">
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Сроки</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">4 — 5 дней</span></p>
+                </div>
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Стоимость</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">Нет данных</span></p>
+                </div>
+              </div>
+            </a>
+
+            <a class="works-portfolio__item works-portfolio__item_vertical"
+              style="background-image: url(img/portfolio/2.jpg);" href="#">
+              <div class="works-portfolio__title">
+                <p>Новостройка</p>
+              </div>
+
+              <div class="works-portfolio__info">
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Сроки</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">4 — 5 дней</span></p>
+                </div>
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Стоимость</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">Нет данных</span></p>
+                </div>
+              </div>
+            </a>
+
+            <a class="works-portfolio__item" style="background-image: url(img/portfolio/3.jpg);" href="#">
+              <div class="works-portfolio__title">
+                <p>Вторичка</p>
+              </div>
+
+              <div class="works-portfolio__info">
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Сроки</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">4 — 5 дней</span></p>
+                </div>
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Стоимость</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">Нет данных</span></p>
+                </div>
+              </div>
+            </a>
+
+            <a class="works-portfolio__item" style="background-image: url(img/portfolio/4.jpg);" href="#">
+              <div class="works-portfolio__title">
+                <p>Вторичка</p>
+              </div>
+
+              <div class="works-portfolio__info">
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Сроки</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">4 — 5 дней</span></p>
+                </div>
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Стоимость</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">Нет данных</span></p>
+                </div>
+              </div>
+            </a>
+
+            <a class="works-portfolio__item works-portfolio__item_vertical"
+              style="background-image: url(img/portfolio/5.jpg);" href="#">
+              <div class="works-portfolio__title">
+                <p>Новостройка</p>
+              </div>
+
+              <div class="works-portfolio__info">
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Сроки</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">4 — 5 дней</span></p>
+                </div>
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Стоимость</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">Нет данных</span></p>
+                </div>
+              </div>
+            </a>
+
+            <a class="works-portfolio__item" style="background-image: url(img/portfolio/6.jpg);" href="#">
+              <div class="works-portfolio__title">
+                <p>Вторичка</p>
+              </div>
+
+              <div class="works-portfolio__info">
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Сроки</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">4 — 5 дней</span></p>
+                </div>
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Стоимость</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">Нет данных</span></p>
+                </div>
+              </div>
+            </a>
+
+            <a class="works-portfolio__item" style="background-image: url(img/portfolio/7.jpg);" href="#">
+              <div class="works-portfolio__title">
+                <p>Вторичка</p>
+              </div>
+
+              <div class="works-portfolio__info">
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Сроки</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">4 — 5 дней</span></p>
+                </div>
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Стоимость</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">Нет данных</span></p>
+                </div>
+              </div>
+            </a>
+
+            <a class="works-portfolio__item works-portfolio__item_horizontal"
+              style="background-image: url(img/portfolio/8.jpg);" href="#">
+              <div class="works-portfolio__title">
+                <p>Новостройка</p>
+              </div>
+
+              <div class="works-portfolio__info">
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Сроки</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">4 — 5 дней</span></p>
+                </div>
+                <div class="works-portfolio__box">
+                  <p class="works-portfolio__text">Стоимость</p>
+                  <p class="works-portfolio__text"><span class="works-portfolio__date">Нет данных</span></p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <button class="button portfolio__button">Все проекты</button>
+
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="contacts__container">
+          <h2 class="subtitle contacts__sutitle">Связаться <span class="transparent-text">с нами</span></h2>
+
+          <div class="contacts__content">
+
+            <div class="contacts__info">
+
+              <ul class="contacts__list">
+
+                <li class="contacts__item">
+                  <h4 class="mini-title">Офис</h4>
+                  <address class="contacts__text">
+                    <p>Москва, ул. Уличная, д. 1, оф. 1</p>
+                  </address>
+                </li>
+
+                <li class="contacts__item">
+                  <h4 class="mini-title">Режим работы</h4>
+                  <div class="contacts__text">
+                    <p>Пн-Вт: 1000 — 1900; Сб-Вс: 1000 — 1500</p>
+                  </div>
+                </li>
+
+                <li class="contacts__item">
+                  <h4 class="mini-title">E-mail</h4>
+                  <div class="contacts__text">
+                    <p>company@company.ru</p>
+                  </div>
+                </li>
+
+                <li class="contacts__item">
+                  <h4 class="mini-title">Телефон</h4>
+                  <div class="contacts__text">
+                    <p>8 (800) 900-00-00</p>
+                  </div>
+                </li>
+
+              </ul>
+
+              <div class="socials">
+                <h2 class="mini-title socials__title">Социальные сети</h2>
+                <ul class="socials__list">
+                  <li class="socials__item">
+                    <a class="socials__link" href="#">
+                      <img class="socials__img" src="img/socials/1.svg" alt="ссылка на соц сеть">
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a class="socials__link" href="#">
+                      <img class="socials__img" src="img/socials/1.svg" alt="ссылка на соц сеть">
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a class="socials__link" href="#">
+                      <img class="socials__img" src="img/socials/1.svg" alt="ссылка на соц сеть">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+
+            <form class="contact-form" action="">
+              <h4 class="mini-title contact-form__title">Остались вопросы?</h4>
+              <label class="contact-form__label">
+                <span class="contact-form__name">Ваше имя</span>
+                <input class="contact-form__field" placeholder="Иван" type="text" name="user-name" required=""
+                  maxlength="20">
+              </label>
+
+              <label class="contact-form__label">
+                <span class="contact-form__name">Телефон / E-mail</span>
+                <input class="contact-form__field" id="phone-input" placeholder="example@example.com" type="email"
+                  required="" name="user-tel-mail">
+              </label>
+
+              <label class="contact-form__label contact-form__label_input">
+                <span class="contact-form__name">Ваше сообщение</span>
+                <textarea class="contact-form__field contact-form__field_textarea" rows="1"
+                  placeholder="Текст обращения" maxlength="900" name="message" required=""></textarea>
+
+                <button class="input-button" type="button">
+                  <svg class="input-button__clip" class="" width="18" height="18">
+                    <use xlink:href="img/icons/icons.svg#clip"></use>
+                  </svg>
+                </button>
+                <div class="input-button__box">
+                  <label class="input-button__label" for="input">
+                    <input class="input-button__input" id="input" required type="file" multiple>
+                    <svg class="input-button__plus" class="" width="26" height="26">
+                      <use xlink:href="img/icons/icons.svg#plus"></use>
+                    </svg>
+                  </label>
+                </div>
+              </label>
+
+              <label class="contact-form__label">
+                <div class="contact-form__text">
+                  Нажимая на кнопку «Получить консультацию», вы соглашаетесь
+                  на <a class="contact-form__link">обработку персональных данных</a>
+                </div>
+              </label>
+              <button class="button contact-form__button" type="submit">Получить консультацию</button>
+            </form>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__text">
+          <p><span class="mini-title">© 2022 Сompany.</span> Соглашение об обработке персональных данных и политика
+            конфиденциальности</p>
+          <p>Сделано в <span class="mini-title">garaje</span></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+<!-- АВТОР СЕЯ ЧУДА: vk.com/amigo_0 -->
+  <script src="js/app.min.js?_v=20220328231957"></script>
+</body>
+
+</html>
